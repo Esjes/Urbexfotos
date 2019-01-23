@@ -1,0 +1,82 @@
+.debug {     
+    border: 1px solid red;
+}
+
+.fotoKaartje {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    margin: 0;
+}
+
+
+.foto {
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 1/5;
+    
+}
+
+.fotoTitel {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 10px;
+    text-align: top;
+    
+}
+
+.fotoFotograafnaam {
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+    text-align: top;
+}
+
+.fotoGemaakt {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 10px;
+    text-align: top;
+}
+.fotoOmschrijving {
+    border-top: 0.5px solid black;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding: 10px;
+    text-align: top;
+}
+
+p {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 0.9em;
+    font-variant: small-caps;
+    color: #000000;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 2em;
+    font-variant: small-caps;
+    color:black;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 0.8em;
+    font-variant: small-caps;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 0.7em;
+    font-variant: small-caps;
+    color: #485d69;
+}
+
+
+

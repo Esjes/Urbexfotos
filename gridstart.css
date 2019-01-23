@@ -1,0 +1,47 @@
+.debug {     
+    border: 1px solid red;
+}
+
+.fotoKaartje {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 4fr;
+    height: 100%;
+    margin: 0;
+}
+
+.foto {
+    border: 1px solid red;
+    grid-column: 1/2;
+    grid-row: 1/5;
+    
+}
+
+.fotoTitel {
+    border: 1px solid red;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 5px
+    
+}
+
+.fotoFotograafnaam {
+    border: 1px solid red;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 5px
+}
+
+.fotoGemaakt {
+    border: 1px solid red;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 5px
+}
+.fotoOmschrijving {
+    border: 1px solid red;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding: 5px
+}
+
