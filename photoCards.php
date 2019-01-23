@@ -9,8 +9,9 @@
     
 </head>
 <body>
+    
 
-    <?php include "imgCards.php"; ?>
+    <?php include "loadPhotoCardsFromDatabase.php"; ?>
 
    
 </body>

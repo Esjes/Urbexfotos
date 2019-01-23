@@ -9,13 +9,9 @@
     
 </head>
 <body>
-<div class="fotoKaartje">
-        <div class="foto">foto</div> 
-        <div class="fotoTitel"><h1>titel</h1></div> 
-        <div class="fotoFotograafnaam"><h2>by: fotograaf naam</h2></div> 
-        <div class="fotoGemaakt"><h3>16-02-2019</h3></div> 
-        <div class="fotoOmschrijving"><p>Dit is een foto van iets moois.</p></div>
-</div> 
+
+    <?php include "loadPhotograferNaam.php"; ?>
+
    
 </body>
 

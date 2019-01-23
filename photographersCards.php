@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <?php include "fotogrCards.php"; ?>
+    <?php include "loadPhotograferCardsFromDatabase.php"; ?>
 
    
 </body>

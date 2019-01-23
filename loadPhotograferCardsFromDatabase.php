@@ -14,9 +14,9 @@
         
         echo '<div class="fotoKaartje">' .
         '<div class="foto"><img src="' . $row['fotograaf_favofoto'] . '"></div>' .
-        '<div class="Titel"><h1>' . $row['fotograaf_naam'] . '</h1></div>' .
+        '<div class="Titel"><p>De favoriete foto van:</p><h1>' . $row['fotograaf_naam'] . '</h1></div>' .
         '<div class="Titelsub"><h2>' . $row['fotograaf_ervaring'] . '</h2></div>' .
-        '<div class="dd"><h3>' . $row['fotograaf_sinds'] . '</h3></div>' .
+        '<div class="dd"><h3>fotografeerd sinds <i> ' . $row['fotograaf_sinds'] . '</i></h3></div>' .
         '<div class="Omschrijving"><p>' . $row['fotograaf_profiel'] . '</p></div>' .
         '</div><br>';
         
