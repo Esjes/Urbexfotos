@@ -9,14 +9,21 @@
     margin: 0;
 }
 
-.foto {
+.fotoKaartje .foto {
     background-color: black;
     grid-column: 1/2;
     grid-row: 1/5;
     
 }
+.fotoKaartje .foto img{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
 
-.fotoTitel {
+.fotoKaartje .Titel {
     grid-column: 2/3;
     grid-row: 1/2;
     padding: 10px;
@@ -24,7 +31,7 @@
     
 }
 
-.fotoFotograafnaam {
+.fotoKaartje .Titelsub {
 
     grid-column: 2/3;
     grid-row: 2/3;
@@ -32,13 +39,14 @@
     text-align: top;
 }
 
-.fotoGemaakt {
+.fotoKaartje .dd {
     grid-column: 2/3;
     grid-row: 3/4;
     padding: 10px;
     text-align: top;
 }
-.fotoOmschrijving {
+
+.fotoKaartje .Omschrijving {
     border-top: 0.5px solid black;
     grid-column: 2/3;
     grid-row: 4/5;

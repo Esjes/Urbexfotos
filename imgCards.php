@@ -1,6 +1,7 @@
 <?php
 
     //CARD.PHP
+    //" style="max-width: 100%; height: auto;"
 
     include "db_connection.php";        
 
@@ -12,11 +13,11 @@
     {            
         
         echo '<div class="fotoKaartje">' .
-        '<div class="foto"><img src="' . $row['foto_src'] . '" style="max-width: 100%; height: auto;"></div>' .
-        '<div class="fotoTitel"><h1>' . $row['foto_titel'] . '</h1></div>' .
-        '<div class="fotoFotograafnaam"><h2>' . $row['foto_naamfotograaf'] . '</h2></div>' .
-        '<div class="fotoGemaakt"><h3>' . $row['foto_datumgemaakt'] . '</h3></div>' .
-        '<div class="fotoOmschrijving"><p>' . $row['foto_omschrijving'] . '<p></div>' .
+        '<div class="fotokaartje foto"><img src="' . $row['foto_src'] . '"></div>' .
+        '<div class="fotokaartje Titel"><h1>' . $row['foto_titel'] . '</h1></div>' .
+        '<div class="fotokaartje Titelsub"><h2>' . $row['foto_naamfotograaf'] . '</h2></div>' .
+        '<div class="fotokaartje dd"><h3>' . $row['foto_datumgemaakt'] . '</h3></div>' .
+        '<div class="fotokaartje Omschrijving"><p>' . $row['foto_omschrijving'] . '</p></div>' .
         '</div><br>';
         
              
