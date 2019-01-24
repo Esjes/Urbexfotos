@@ -20,7 +20,7 @@
         '<div class="Titel"><p>De favoriete foto van:</p><h1>' . $row['fotograaf_naam'] . '</h1></div>' .
         '<div class="Titelsub"><h2>' . $row['fotograaf_ervaring'] . '</h2></div>' .
         '<div class="dd"><h3>fotografeerd sinds <i> ' . $row['fotograaf_sinds'] . '</i></h3></div>' .
-        '<div class="Omschrijving"><p>' . $row['fotograaf_profiel'] . '</p></div>' .
+        '<div class="Omschrijving"><p>' . $row['fotograaf_profiel'] . '</p><div><a href="photoCards.php"><p><<<</p></a></div></div>' .
         '</div><br>';
         
              

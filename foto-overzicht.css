@@ -71,11 +71,14 @@
 }
 
 .fotoKaartje .Omschrijving {
+    display: flex;
+    flex-direction: column;
     border-top: 0.5px solid black;
     grid-column: 2/3;
     grid-row: 4/5;
     padding: 10px;
-    text-align: top;
+    align-content: flex-start;
+    justify-content: space-between;
 }
 
 p {

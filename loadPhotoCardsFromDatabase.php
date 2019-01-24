@@ -1,10 +1,5 @@
 <?php
 
-//<a href="" 
-//  target="popup" 
-//  onclick="window.open('foto_naamfotograaf.php','popup','width= ,height= '); return false;">
-//  Open Link in Popup
-//  </a>
 
     include "db_connection.php";        
 
@@ -22,8 +17,8 @@
         '<a href="photographersPopup.php?id=' . $row['fotograaf_id'] . '"><h2>' . $row['foto_naamfotograaf'] . '</h2></a>' . 
         '</div>' .
         '<div class="fotokaartje dd"><h3>' . $row['foto_datumgemaakt'] . '</h3></div>' .
-        '<div class="fotokaartje Omschrijving"><p>' . $row['foto_omschrijving'] . '</p></div>' .
-        '</div><br>';
+        '<div class="fotokaartje Omschrijving"><p>' . $row['foto_omschrijving'] . '</p><div><p>Alle foto´s van ' . $row['foto_naamfotograaf'] . ' >>></p></div></div>' .
+        '</div>';
         
     }       
 
