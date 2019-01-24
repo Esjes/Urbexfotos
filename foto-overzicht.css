@@ -2,12 +2,34 @@
     border: 1px solid red;
 }
 
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .kop {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 3em;
+    font-variant: small-caps;
+    color:black;
+    letter-spacing: 5px;
+}
+
+
+
 .fotoKaartje {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto auto 1fr;
     max-width: 1088px;
-    margin: 0 auto;
+    margin-top: 100px;
+    
 }
 
 .fotoKaartje .foto {

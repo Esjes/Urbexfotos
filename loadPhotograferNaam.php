@@ -2,11 +2,13 @@
 
 
   
-    $naam = 'Thomas Huster';
+    $id = $_GET['id'];
 
     include "db_connection.php";        
 
-    $sql_querie = "SELECT fotograaf_favofoto, fotograaf_naam, fotograaf_ervaring, fotograaf_sinds, fotograaf_profiel FROM fotografen WHERE fotograaf_naam = '$naam'";
+    $sql_querie = "SELECT fotograaf_favofoto, fotograaf_naam, fotograaf_ervaring, fotograaf_sinds, fotograaf_profiel 
+                   FROM fotografen 
+                   WHERE fotograaf_id = '$id'";
     
     $db_result = $conn->query($sql_querie);  
 
