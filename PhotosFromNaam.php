@@ -9,14 +9,8 @@
     
 </head>
 <body>
-    <div class="header">
-        <div class="kop">
-            urbex fotografie
-        </div>
 
-    </div>
-
-    <?php include "loadPhotoCardsFromDatabase.php"; ?>
+    <?php include "loadAllPhotosFromNaam.php"; ?>
 
    
 </body>
