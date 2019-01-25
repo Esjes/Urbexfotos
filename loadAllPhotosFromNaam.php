@@ -27,7 +27,7 @@ GROUP BY
         }
         echo '<div class="alleFotos">' . 
         '<div class="naam">'.
-        '<div><h2>' . $row['fotograaf_naam'] . '</h2></div>'.
+        '<div><h1>' . $row['fotograaf_naam'] . '</h1></div>'.
         '<div><a href="photoCards.php"><p><<<</p></a></div>' .
         '</div>' .
         '<div class="fotos"><img src="' . $row['fotograaf_favofoto'] . '">' . $show_afbeeldingen . '</div>' .
